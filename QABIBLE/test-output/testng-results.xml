@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22007" started-at="2020-04-20T09:59:57 IST" finished-at="2020-04-20T10:00:19 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22007" started-at="2020-04-20T09:59:57 IST" finished-at="2020-04-20T10:00:19 IST">
+      <class name="TestScripts.RegressionTest">
+        <test-method status="PASS" signature="browserLaunch()[pri:0, instance:TestScripts.RegressionTest@396f6598]" name="browserLaunch" is-config="true" duration-ms="15185" started-at="2020-04-20T09:59:57 IST" finished-at="2020-04-20T10:00:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserLaunch -->
+        <test-method status="PASS" signature="verifyLogoutfromDeductionpage()[pri:0, instance:TestScripts.RegressionTest@396f6598]" name="verifyLogoutfromDeductionpage" duration-ms="6561" started-at="2020-04-20T10:00:12 IST" finished-at="2020-04-20T10:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogoutfromDeductionpage -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestScripts.RegressionTest@396f6598]" name="afterTest" is-config="true" duration-ms="218" started-at="2020-04-20T10:00:19 IST" finished-at="2020-04-20T10:00:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestScripts.RegressionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
