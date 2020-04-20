@@ -25,7 +25,7 @@ import org.testng.annotations.AfterTest;
 public class RegressionTest extends TestHelper {
 	 Pageutility pageutility =new Pageutility();
 	 
- /* @Test
+ @Test
     public void verifyLoginpageLoaded() {
 	  Login login=new Login(driver);
 	  Assert.assertTrue(login.isloginPageloaded());
@@ -172,7 +172,11 @@ public class RegressionTest extends TestHelper {
 		 Createdeductionpage createdeductionpage= new Createdeductionpage (driver);
 		 Assert.assertTrue(createdeductionpage.isadddeductiondisplayed());
 		 createdeductionpage.clickOnAdddeduction();
-		 createdeductionpage.Adddeductionincreatedeductionpage("Timmy  Goldsmith","Travel",550,"01-01-2020");
+		 createdeductionpage.enterValueinWorkerfieldinCreatedeductionfield("Timmy  Goldsmith");
+		 createdeductionpage.enterValueinFieldTypeinCreatedeductionpage("Rent");
+		 createdeductionpage.enterValueinFieldAmountinCreatedeductionpage(1200);
+		 createdeductionpage.enterValueinFieldEffectivedateinCreateDeductionpage("01-01-2020");
+		 createdeductionpage.saveDeductioninCreatedeductionpage();
 		 Detailviewpage detailviewpage= new Detailviewpage(driver);
 		 Assert.assertTrue(detailviewpage.isDetailviewpageDisplayed());
 		 
@@ -435,7 +439,7 @@ public class RegressionTest extends TestHelper {
 		   createdeductionpage.cleareffdatefieldinadddeductionpage();
 		   createdeductionpage.saveDeductioninCreatedeductionpage();
 		   Assert.assertTrue(createdeductionpage.isCreateDeductionpageloaded());
-	   }*/
+	   }
 	   
 	   @Test 
 	   public void verifyLogoutfromDeductionpage() {
